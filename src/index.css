@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+
+  background-color: #000000;
+  color: #ffffff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+input {
+  border: 2px solid transparent;
+  outline: transparent;
+  background-color: transparent;
+}
+
+textarea {
+  border: 2px solid transparent;
+  outline: transparent;
+  background-color: transparent;
+  resize: none;
 }
